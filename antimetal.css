@@ -12,19 +12,17 @@ body{
    color: #1F2632; 
 }
 
-
 .head-nav{
    display: flex;
    align-items: center;
-   justify-content: space-around;
+   justify-content: center;
    position: sticky;
-   padding: 1rem 2rem; 
-    
+   padding: 1rem 2rem;    
 }
 header{
    position: sticky;
    top: 0;
-   cursor: pointer;
+   cursor: pointer;  
 }
 .logo{
    width: 150px;
@@ -35,19 +33,19 @@ ul li{
 }
 .nav-bar{
    display: flex;
+   align-items: center;
    justify-content: center;
 }
 .navbar{
    display: flex;
-   align-items: center;
+   align-items: center;  
 }
 .navbar a, .nav-btn a{
    text-decoration: none;
    text-align: center;
    padding:  0.5rem 1rem;
    font-size: 0.9rem;
-   font-weight: 500;
-   
+   font-weight: 500;  
 }
 .navbar a:hover, .nav-btn:hover{
    background-color: #C9DFF1;
@@ -154,8 +152,7 @@ a{
    border-radius: 1rem;
    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 5px 0 rgba(0, 0, 0, 0.19);
    padding: 0.2rem 0.5rem;
-   gap: 0.2rem;
-   
+   gap: 0.2rem; 
 }
 .prob img, .soln img{
    width: 25px;
@@ -200,23 +197,173 @@ a{
    margin: 2rem auto 5rem auto;
 }
 .sec-soln{
-   margin-top: 5rem;
+   margin: 5rem 0 10rem 0;
    text-align: center;
 }
 .soln-head{
    text-align: center;
-   font-size: 2.2rem;
-   font-weight: 600;
+   font-size: 2.5rem;
+   font-weight: 700;
    max-width: 700px;
    margin: 1rem auto;
 }
 .soln-subhead{
    font-size: 1.2rem;
    font-weight: 500;
-   max-width: 350px;
    color: #454E5E;
    margin: 0 auto;
 }
+
+/*Saving Section*/
+.saving{
+   margin-top: 10rem;
+}
+.save-head, .visible-head{
+   color: #8A919E;
+   font-weight: 500;
+   font-size: 1.3rem;
+   text-align: center;
+}
+.save-subhead{
+   font-size: 3rem;
+   font-weight: 700;
+   text-align: center;
+   max-width: 700px;
+   margin: 1rem auto 7rem auto;
+}
+.card-save{
+   width: 90%;
+   height: auto;
+   padding: 3rem;
+   margin-bottom: 4rem;
+   border-radius: 0.5rem;
+   box-shadow: 0 4px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.save-detail{
+   display: flex;
+   margin-bottom: 2rem;
+   justify-content: space-between;
+   
+}
+.save{
+   color: #212632;
+   font-size: 1.3rem;
+   font-weight: 500;
+}
+.save-pend{
+   color: #777E8F;
+   display: flex;
+   align-self: flex-end;
+   
+}
+
+.amount{
+   color: #232834;
+   font-size: 2rem;
+   font-weight: 600;
+   margin-bottom: 1rem;
+}
+.amnt-info{
+   display: flex;
+   
+}
+.amnt-info p{
+   color: #777E8F;
+
+}
+
+.saving button{
+   border: none;
+   
+   border-radius: 0.5rem;
+   padding: 0.12 0.2rem;
+   color: transparent;
+}
+.btn-pill{
+   background-color: #0B84FE;
+}
+.btn-pill2{
+   background-color: #B8DCFF;
+}
+.btn-pill3{
+   background-color: #FFB323;
+}
+.sec-cost{
+   margin: 5rem 0 10rem 0;
+}
+.cost-discount{
+   align-items: center;
+   text-align: center;
+   gap: 5rem;
+}
+
+.cost-discount h3{
+   font-weight: 500;
+   font-size: 1.2rem;
+   margin: 1rem 0;
+   color: #212632;
+}
+
+.cost-discount p{
+   font-size: 1rem;
+   font-weight: 500;
+   max-width: 300px;
+   line-height: 1.5;
+   margin: 0 auto;
+   color: #4D5564;
+}
+
+.cost p{
+   font-size: 1rem;
+   max-width: 350px;
+   text-align: center;
+   margin: 0 auto;
+}
+.cost-icons{
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   margin: 2rem 0;
+   gap: 2rem;
+}
+.cost-icons img{
+   border-radius: 100%;
+   background-color: #FFFFFF;
+   border-radius: none;
+   width: 70px;
+   
+   box-shadow: 0 0 0 1px #0e3f7e0f,0 1px 1px -.5px #2a334608,0 3px 3px -1.5px #2a33460d,0 5px 5px -2.5px #2a334608,0 16px 16px -8px #2a33460a;
+}
+.save-more h3{
+   font-weight: 500;
+   font-size: 1.2rem;
+   text-align: center;
+   margin: 1rem 0;
+   color: #212632;
+}
+.save-more p{
+   max-width: 370px;
+   line-height: 1.5;
+   text-align: center;
+   margin: 0 auto;
+   color: #4D5564;
+}
+
+/*Visibility section*/
+.visible-subhead{
+   font-size: 3.5rem;
+   font-weight: 700;
+   text-align: center;
+   margin: 1rem 0 2rem 0;
+   
+}
+
+
+
+
+
+
+
 
 
 /*Footer*/
@@ -312,6 +459,21 @@ a{
     display: flex;
     gap: 2rem; 
 }
+
+.card-save{
+   width: auto;
+}
+.save-amnt{
+   display: flex;
+   justify-content: space-between;
+}
+.cost-discount{
+   display: flex;
+}
+
+
+
+
 }
 
 
