@@ -7,7 +7,7 @@
 }
 
 body{
-   background-image: linear-gradient(#DCEDFB, #F4F3F8, #FBFBFC);
+   background-color: #FBFBFC;
    font-family: "Public Sans", sans-serif;
    color: #1F2632; 
 }
@@ -16,16 +16,20 @@ body{
    display: flex;
    align-items: center;
    position: sticky;
-   padding: 1rem 2rem; 
+   padding: 0 2rem; 
    justify-content: space-between;
    margin: 0 5rem;
    
+   
       
 }
+
 header{
    position: sticky;
    top: 0;
-   cursor: pointer; 
+   cursor: pointer;
+   background-color: #DDEDFB;
+   
    
 }
 .logo{
@@ -74,6 +78,8 @@ ul li{
 .hero{
    padding-top: 1.5rem;
    text-align: center; 
+   background-image: linear-gradient(#DCEDFB, #F4F3F8, #FBFBFC);
+   
 }
 
 .hero-text{
